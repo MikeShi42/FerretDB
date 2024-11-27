@@ -199,6 +199,6 @@ Running the tool to check FerretDB compatibility:
 
 ```sh
 # clone the repository and run the compat-tool
-$ git clone https://github.com/FerretDB/amazon-documentdb-tools.git && cd amazon-documentdb-tools/compat-tool
+$ git clone --depth=1 https://github.com/FerretDB/amazon-documentdb-tools.git && cd amazon-documentdb-tools/compat-tool
 $ python3 compat.py --directory=/path/to/myapp --version=FerretDB
 ```
